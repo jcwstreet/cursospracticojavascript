@@ -8,6 +8,7 @@
     <title>Calculadora JC</title>
 </head>
 <body>
+    
 
     <main>
         <div class="up_calc">
@@ -19,27 +20,27 @@
             </div>
         </div>
         <div class="screen_number" >
-            <p>399,981.00</p>
+            <p class="screen_number_resultP" id="screen_number_resultP">0</p>
         </div>
         <div class="keys_big" >
-            <button class="key_number" value="1"  >1</button>
-            <button class="key_number" value="2"  >2</button>
-            <button class="key_number" value="3"  >3</button>
-            <button class="key_DEL" value="DEL"  >DEL</button>
-            <button class="key_number" value="4"  >4</button>
-            <button class="key_number" value="5"  >5</button>
-            <button class="key_number" value="6"  >6</button>
-            <button class="key_PLUS keys_operations" value="PLUS"  >+</button>
-            <button class="key_number" value="7"  >7</button>
-            <button class="key_number" value="8"  >8</button>
-            <button class="key_number" value="9"  >9</button>
-            <button class="key_EXTRAC keys_operations" value="EXTRACT"  >-</button>
-            <button class="key_number" value="PUNT"  >.</button>
-            <button class="key_number" value="0"  >0</button>
-            <button class="key_DIVID keys_operations" value="DIVID"  >/</button>
-            <button class="key_POR keys_operations" value="POR"  >X</button>
-            <button class="key_RESET" value="RESET"  >RESET</button>
-            <button class="key_EQUAL " value="EQUAL"  >=</button>
+            <input type="button" class="key_number key" value="1"></input>
+            <input type="button" class="key_number key" value="2"></input>
+            <input type="button" class="key_number key" value="3"></input>
+            <input type="button" class="key_DEL key key_operator" value="DEL"></input>
+            <input type="button" class="key_number key" value="4"></input>
+            <input type="button" class="key_number key" value="5"></input>
+            <input type="button" class="key_number key" value="6"></input>
+            <input type="button" class="key_PLUS key_operator key" value="+"  ></input>
+            <input type="button" class="key_number key" value="7"></input>
+            <input type="button" class="key_number key" value="8"></input>
+            <input type="button" class="key_number key" value="9"></input>
+            <input type="button" class="key_EXTRAC key_operator key" value="-"></input>
+            <input type="button" class="key_number key" value="." ></input>
+            <input type="button" class="key_number key" value="0" ></input>
+            <input type="button" class="key_DIVID key_operator key" value="/"  ></input>
+            <input type="button" class="key_POR key_operator key"value="X"  ></input>
+            <input type="button" class="key_RESET key key_operator" value="RESET"></input>
+            <input type="button" class="key_EQUAL key key_operator" value="="></input>
          
 
 
@@ -49,6 +50,7 @@
         </div>
 
     </main>
-    
+    <script src="./calc.js" >
+    </script>
 </body>
 </html>

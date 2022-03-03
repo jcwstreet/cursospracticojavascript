@@ -47,7 +47,8 @@ function OnClickButtonPriceDiscount(){
     } else {
         const precioConDescuento = calcularPrecioConDescuento(priceValue, userCoupon.discount);
 
-        const resultP = document.getElementById('ResultP');resultP.innerText = 'El precio con descuento son: $' + precioConDescuento;
+        const resultP = document.getElementById('ResultP');
+        resultP.innerText = 'El precio con descuento son: $' + precioConDescuento;
 
     }
     

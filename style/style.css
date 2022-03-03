@@ -122,10 +122,18 @@ main .keys_big {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 15px;
+    grid-template-areas:  
+    'uno dos tres DEL'
+    'cuatro cinco seis plus'
+    'siente ocho nueve extract'
+    'punt zero divid por'
+    'RESET  RESET EQUAL EQUAL'
+    
+    ;
     
 }
 
-main .keys_big button {
+main .keys_big input {
     border-radius: 8px;
     border: none;
 
@@ -153,4 +161,15 @@ main .keys_big .key_EQUAL {
     box-shadow: 0 3px 1px var(--Dark-red-key-shadow);
     color: var(--White);
     font-size: 1.5rem;
+    grid-area: RESET;
 }
+
+.key:hover {
+    cursor: pointer;
+}
+
+.key_RESET {
+    grid-area: EQUAL;
+}
+
+
