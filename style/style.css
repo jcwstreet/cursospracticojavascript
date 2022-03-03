@@ -134,6 +134,8 @@ main .keys_big {
 main .keys_big input {
     border-radius: 8px;
     border: none;
+    width: 100%;
+    height: 100%;
 
 }
 
